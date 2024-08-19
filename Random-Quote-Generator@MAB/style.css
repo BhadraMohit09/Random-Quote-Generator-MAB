@@ -1,0 +1,41 @@
+ body{
+  margin-top: 2vh;
+   background-image: url("background.jpg");
+   background-color: #cccccc; /* Used if the image is unavailable */
+   height: 500px; /* You must set a specified height */
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover; 
+ }
+
+ #container{
+    /* background-color: pink; */
+    border: 4px solid rgb(217, 146, 4);
+    height: auto;
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+
+ }
+
+ #btn{
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    color: white;
+    border: 2px solid black;
+ }
+
+ #output{
+   margin: 25px auto;
+   color: black;
+   font-size: 20px;
+   background-color: white;
+   height: auto;
+   text-align: center;
+   width: 500px;
+   border: 1px solid rgb(209, 158, 5);
+   
+ }
+
